@@ -1,0 +1,2 @@
+# tokenization_from_txt_file
+In this code, I have created a class with two methods, where the first one tokenizes the words in the corpus (.txt file) with regular expressions and the second one tokenizes the words by turning this into a pandas dataframe. I tried to figure out which one is faster using the timeit module and faced some challenges there. It turned out to be, the regular expressions method is faster.
